@@ -1,0 +1,27 @@
+.colorImage {
+  fill: red;
+  transition: all 0.6s ease;
+}
+
+.list-items:hover .colorImage {
+  fill: rgb(255, 251, 0);
+}
+
+.heading {
+  color: red;
+  transition: all 0.6s ease;
+}
+
+.list-items:hover .heading {
+  color: rgb(255, 251, 0);
+}
+
+.list-items {
+  border: 1px solid red;
+  border-radius: 10px;
+  transition: all 0.6s ease;
+}
+
+.list-items:hover {
+  border: 1px solid rgb(255, 251, 0);
+}
